@@ -23,7 +23,11 @@
 
 .card {
   margin: 0 auto;
+  border: none;
+  width: auto;
+  padding-top: 30px;
 }
-.card img {
-  width: 100%;
+.card-img-top {
+  height: 500px;
+  margin: 0 auto;
 }

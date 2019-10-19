@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Collapse, Navbar, NavbarToggler, NavbarBrand, Nav, NavItem, NavLink } from 'reactstrap';
+import { Link } from 'react-router-dom';
 
 const MainNav = () => {
 
@@ -13,10 +14,13 @@ const MainNav = () => {
         <Collapse isOpen={!collapsed} navbar>
           <Nav navbar>
             <NavItem>
-              <NavLink href="/components/">Tribute</NavLink>
+              <Link to="/" onClick={toggleNavbar}><NavLink>Home</NavLink></Link>
             </NavItem>
             <NavItem>
-              <NavLink href="https://github.com/reactstrap/reactstrap">Gallery</NavLink>
+              <Link to="/tribute" onClick={toggleNavbar}><NavLink>Tribute</NavLink></Link>
+            </NavItem>
+            <NavItem>
+              <Link to="/gallery" onClick={toggleNavbar}><NavLink>Gallery</NavLink></Link>
             </NavItem>
           </Nav>
         </Collapse>
