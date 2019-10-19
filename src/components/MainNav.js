@@ -8,7 +8,7 @@ const MainNav = () => {
 
   return (
     <Navbar color="faded" light>
-      <NavbarBrand href="/" className="mr-auto"><img src={require("../images/stanley-logo.jpg")} alt="Stanley Logo" className="img-responsive" /></NavbarBrand>
+      <NavbarBrand href="/" className="mr-auto"><img src="/images/stanley-logo.jpg" alt="Stanley Logo" className="img-responsive" /></NavbarBrand>
       <NavbarToggler onClick={toggleNavbar} className="mr-2" />
         <Collapse isOpen={!collapsed} navbar>
           <Nav navbar>
