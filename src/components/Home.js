@@ -27,7 +27,7 @@ const Home = props => {
       <h1>Stanley Neilson <span role="img" aria-label="Blue Heart">💙</span></h1>
         <Row>
           <Card>
-            <CardImg top src={`/images/${data.url}`} alt="Card image cap" className="img-responsive" />
+            <CardImg top src={`/images/${data.url}`} alt="Card image cap" className="img-fluid h-100" />
             <CardBody>
               <CardText>{data.quote}</CardText>
               <Button color="primary" onClick={handleClick}>New Picture</Button>
