@@ -21,6 +21,9 @@
   color: #09d3ac;
 }
 
+.navbar-brand img {
+  width: 125px;
+}
 .card {
   margin: 0 auto;
   border: none;
@@ -29,5 +32,12 @@
 }
 .card-img-top {
   height: 500px;
+  margin: 0 auto;
+}
+.featured-photo {
+  height: 300px;
+  padding: 10px;
+}
+.featured-photo img {
   margin: 0 auto;
 }
