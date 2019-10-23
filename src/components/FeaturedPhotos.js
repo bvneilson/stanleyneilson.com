@@ -15,7 +15,7 @@ const FeaturedPhotos = () => {
   return(
     numArray.map((number, index) => {
       return (
-        <Col xs="6" sm="6" md="3" lg="4" className="featured-photo d-flex flex-wrap align-items-center" key={index}>
+        <Col xs="6" lg="4" className="featured-photo d-flex flex-wrap align-items-center" key={index}>
           <img src={`/images/${photoData[number].url}`} className="img-fluid h-100" alt="Featured" />
         </Col>
       )

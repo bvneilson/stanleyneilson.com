@@ -21,6 +21,9 @@
   color: #09d3ac;
 }
 
+nav {
+  background-color: #E8E8E8;
+}
 .navbar-brand img {
   width: 125px;
 }
@@ -38,4 +41,16 @@
 }
 .featured-photo img {
   margin: 0 auto;
+}
+
+@media (min-width: 576px) {
+  .featured-photo {
+    height: 300px;
+  }
+}
+
+@media (min-width: 768px) {
+  .featured-photo {
+    height: 400px;
+  }
 }
